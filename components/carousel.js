@@ -12,7 +12,7 @@ const CarouselSlideshow = ({ images }) => {
       showStatus={false}
       showIndicators={false}
       showThumbs={false}
-      interval={30000} // Set the auto-play interval in milliseconds
+      interval={15000} // Set the auto-play interval in milliseconds
     >
       {images.map((image, index) => (
         <div key={index}>
